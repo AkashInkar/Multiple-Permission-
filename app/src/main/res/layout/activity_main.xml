@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg2"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageButton
+        android:layout_width="@dimen/btns"
+        android:layout_height="90dp"
+        android:src="@drawable/ic_send"
+        android:id="@+id/btnmsg"
+        android:background="@drawable/bgfile"
+
+        android:onClick="sendMessage"/>
+
+    <ImageButton
+        android:layout_width="@dimen/btns"
+        android:layout_height="@dimen/btns"
+        android:src="@drawable/ic_message_black_24dp"
+        android:background="@drawable/bgfile"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnw"
+        android:onClick="openWhatapps"/>
+    <ImageButton
+        android:layout_width="@dimen/btns"
+        android:layout_height="@dimen/btns"
+        android:src="@drawable/ic_open_in_browser"
+        android:background="@drawable/bgfile"
+        android:layout_marginTop="10dp"
+        android:id="@+id/btnb"
+        android:onClick="openBrowser"
+        />
+    <ImageButton
+        android:layout_width="@dimen/btns"
+        android:layout_height="@dimen/btns"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bgfile"
+        android:src="@drawable/ic_call"
+        android:id="@+id/btnc"
+        android:onClick="makeCall"
+        />
+
+    <ImageButton
+        android:layout_width="@dimen/btns"
+        android:layout_height="@dimen/btns"
+        android:background="@drawable/bgfile"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_message_black_24dp"
+        android:id="@+id/btnsms"
+        android:onClick="sendSmS"
+        />
+
+
+
+
+
+
+
+</LinearLayout>
